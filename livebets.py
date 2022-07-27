@@ -17,3 +17,5 @@ async def main(event):
 async def main(event):
      await client.send_message(-1001094033192, event.message) # VARGES CLUB
      await client.send_message(-1001250994275, event.message) # BEARETOR BETS
+
+client.run_until_disconnected()
